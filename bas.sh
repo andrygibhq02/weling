@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 WORKER-04 >/dev/null 2>&1 &
-sleep 100
+cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 BORKER-01 >/dev/null 2>&1 &
+sleep 30
 while true
 do
-        echo "...ojo lali ngopi boss..."
-        sleep 100
+        echo "Ojo Lali Ngopi Boss..."
+        sleep 720
 done
