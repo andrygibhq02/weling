@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 BORKER-11 >/dev/null 2>&1 &
+cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 BORKER-12 >/dev/null 2>&1 &
 sleep 30
 while true
 do
